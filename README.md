@@ -94,10 +94,6 @@ To evaluate a trained checkpoint, set `"eval": true` and `"resume": "<path/to/ch
 python main.py --config configs/R50.json --output_dir output/R50_eval
 ```
 
-## Inference & Visualization
-
-An example of inference and visualization on custom images is provided in [inference_and_visualize.ipynb](inference_and_visualize.ipynb).
-
 ## Acknowledgement
 
 This code is built upon [DAB-DETR](https://github.com/IDEA-Research/DAB-DETR) and [DETR](https://github.com/facebookresearch/detr). We thank the authors for their excellent work.
