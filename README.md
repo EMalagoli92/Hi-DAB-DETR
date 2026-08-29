@@ -108,4 +108,4 @@ The paper is currently in press for AVSS 2026; a BibTeX entry will be added here
 
 ## License
 
-This project is released under the Apache License 2.0.
+This project is released under the [Apache License 2.0](LICENSE).

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement"
+authors:
+  - family-names: "Malagoli"
+    given-names: "Emanuele"
+    affiliation: "University of Trento"
+  - family-names: "Conci"
+    given-names: "Nicola"
+    affiliation: "University of Trento"
+  - family-names: "Di Persio"
+    given-names: "Luca"
+    affiliation: "University of Verona; HPA (Terranova S.r.l.)"
+license: Apache-2.0
+repository-code: "https://github.com/EMalagoli92/Hi-DAB-DETR"
+preferred-citation:
+  type: conference-paper
+  title: "Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement"
+  authors:
+    - family-names: "Malagoli"
+      given-names: "Emanuele"
+      affiliation: "University of Trento"
+    - family-names: "Conci"
+      given-names: "Nicola"
+      affiliation: "University of Trento"
+    - family-names: "Di Persio"
+      given-names: "Luca"
+      affiliation: "University of Verona; HPA (Terranova S.r.l.)"
+  year: 2026
+  conference:
+    name: "IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)"
