@@ -1,5 +1,10 @@
 # Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.8-ee4c2c.svg)](https://pytorch.org/)
+[![AVSS 2026](https://img.shields.io/badge/AVSS-2026-lightgrey.svg)](https://avss2026.org/)
+
 Official PyTorch implementation of **Hi-DAB-DETR**, accepted at **AVSS 2026** (Advanced Video and Signal-based Surveillance).
 
 > **Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement**
@@ -73,12 +78,16 @@ Training is launched via [main.py](main.py), configured through a JSON/YAML conf
 python main.py --config configs/R50.json --output_dir output/R50
 ```
 
-For multi-GPU / multi-node training, use [train.sh](train.sh):
+For multi-GPU / multi-node training, use `torch.distributed.run`:
 
 ```bash
-./train.sh <nnodes> <nproc_per_node> <config_path> <output_dir>
-# e.g.
-./train.sh 1 4 configs/R50.json output/R50
+python -m torch.distributed.run \
+  --nnodes <nnodes> \
+  --nproc_per_node <nproc_per_node> \
+  --node_rank 0 \
+  main.py \
+  --config <config_path> \
+  --output_dir <output_dir>
 ```
 
 Configuration naming convention:
