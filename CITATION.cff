@@ -4,13 +4,13 @@ title: "Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement"
 authors:
   - family-names: "Malagoli"
     given-names: "Emanuele"
-    affiliation: "University of Trento"
+    affiliation: "University of Trento; HPA (Terranova S.r.l.)"
   - family-names: "Conci"
     given-names: "Nicola"
     affiliation: "University of Trento"
   - family-names: "Di Persio"
     given-names: "Luca"
-    affiliation: "University of Verona; HPA (Terranova S.r.l.)"
+    affiliation: "University of Verona"
 license: Apache-2.0
 repository-code: "https://github.com/EMalagoli92/Hi-DAB-DETR"
 preferred-citation:
@@ -19,13 +19,13 @@ preferred-citation:
   authors:
     - family-names: "Malagoli"
       given-names: "Emanuele"
-      affiliation: "University of Trento"
+      affiliation: "University of Trento; HPA (Terranova S.r.l.)"
     - family-names: "Conci"
       given-names: "Nicola"
       affiliation: "University of Trento"
     - family-names: "Di Persio"
       given-names: "Luca"
-      affiliation: "University of Verona; HPA (Terranova S.r.l.)"
+      affiliation: "University of Verona"
   year: 2026
   conference:
     name: "IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)"

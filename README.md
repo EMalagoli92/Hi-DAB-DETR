@@ -8,8 +8,8 @@
 Official PyTorch implementation of **Hi-DAB-DETR**, accepted at **AVSS 2026** (Advanced Video and Signal-based Surveillance).
 
 > **Hi-DAB-DETR: DETR with Hierarchical Prototype Refinement**
-> Emanuele Malagoli, Nicola Conci, Luca Di Persio
-> University of Trento, University of Verona, HPA (Terranova S.r.l.)
+> Emanuele Malagoli<sup>1,2</sup>, Nicola Conci<sup>1</sup>, Luca Di Persio<sup>3</sup>
+> <sup>1</sup>University of Trento, <sup>2</sup>HPA (Terranova S.r.l.), <sup>3</sup>University of Verona
 >
 > *Paper / proceedings link will be added once available.*
 
